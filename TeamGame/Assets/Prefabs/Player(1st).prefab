@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd40d8559d872b046a2edbcf33b22e6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
+  mouseSensitivity: 500
   playerBody: {fileID: 2443064899034281910}
 --- !u!1 &271524502
 GameObject:
@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 705488913}
   m_Layer: 0
   m_Name: Player(1st)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -328,7 +328,7 @@ MonoBehaviour:
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   waterCheck: {fileID: 271524503}
   waterDistance: 0.4
   waterMask:
