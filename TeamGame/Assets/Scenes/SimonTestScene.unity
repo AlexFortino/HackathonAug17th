@@ -130,42 +130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 250140977, guid: 8751aec11a977864a8d34b7028277976, type: 3}
-      propertyPath: playerBody
-      value: 
-      objectReference: {fileID: 1975098865}
-    - target: {fileID: 250140978, guid: 8751aec11a977864a8d34b7028277976, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 705488913, guid: 8751aec11a977864a8d34b7028277976, type: 3}
-      propertyPath: groundCheck
-      value: 
-      objectReference: {fileID: 47909968}
-    - target: {fileID: 705488913, guid: 8751aec11a977864a8d34b7028277976, type: 3}
-      propertyPath: waterMask.m_Bits
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 705488913, guid: 8751aec11a977864a8d34b7028277976, type: 3}
-      propertyPath: waterCheck
-      value: 
-      objectReference: {fileID: 47909967}
-    - target: {fileID: 705488913, guid: 8751aec11a977864a8d34b7028277976, type: 3}
-      propertyPath: waterDistance
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 705488913, guid: 8751aec11a977864a8d34b7028277976, type: 3}
-      propertyPath: gravity
-      value: -20
-      objectReference: {fileID: 0}
-    - target: {fileID: 705488913, guid: 8751aec11a977864a8d34b7028277976, type: 3}
-      propertyPath: jumpHeight
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 705488913, guid: 8751aec11a977864a8d34b7028277976, type: 3}
-      propertyPath: controller
-      value: 
-      objectReference: {fileID: 47909969}
     - target: {fileID: 2443064899034281910, guid: 8751aec11a977864a8d34b7028277976,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -226,27 +190,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player(1st)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8966524927763188418, guid: 8751aec11a977864a8d34b7028277976, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8751aec11a977864a8d34b7028277976, type: 3}
---- !u!4 &47909967 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 271524503, guid: 8751aec11a977864a8d34b7028277976,
-    type: 3}
-  m_PrefabInstance: {fileID: 47909966}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &47909968 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9188110447531936615, guid: 8751aec11a977864a8d34b7028277976,
-    type: 3}
-  m_PrefabInstance: {fileID: 47909966}
-  m_PrefabAsset: {fileID: 0}
---- !u!143 &47909969 stripped
-CharacterController:
-  m_CorrespondingSourceObject: {fileID: 5807712647406582453, guid: 8751aec11a977864a8d34b7028277976,
-    type: 3}
-  m_PrefabInstance: {fileID: 47909966}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1259201475
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,12 +275,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1975098865 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2443064899034281910, guid: 8751aec11a977864a8d34b7028277976,
-    type: 3}
-  m_PrefabInstance: {fileID: 47909966}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2097633721
 GameObject:
   m_ObjectHideFlags: 0
