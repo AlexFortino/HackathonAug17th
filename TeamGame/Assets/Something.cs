@@ -8,6 +8,7 @@ public class Something : MonoBehaviour
     void Start()
     {
         Debug.Log("STUFF AND THANGS");
+        Debug.Log("Hello Worlds!");
     }
 
     // Update is called once per frame
