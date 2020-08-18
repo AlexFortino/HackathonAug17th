@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WallDissapear : MonoBehaviour
+public class DIssapearingWall : MonoBehaviour
 {
-    public GameObject gameObject2;
+
     public GameObject theObject;
+    public GameObject Text1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +19,11 @@ public class WallDissapear : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1) && (theObject == null))
         {
+            Destroy(gameObject);
+            
             gameObject.GetComponent<BoxCollider>().enabled = false;
+            Destroy(Text1);
         }
     }
-   
 }
+    
