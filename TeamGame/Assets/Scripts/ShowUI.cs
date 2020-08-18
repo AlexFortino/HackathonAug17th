@@ -23,16 +23,13 @@ public class ShowUI : MonoBehaviour
         if (player.gameObject.tag == "Player")
         {
             uiObject.SetActive(true);
-            StartCoroutine("WaitForSec");
+            Destroy(uiObject, 5.0f);
+            Destroy(gameObject);
+        
         }
     }
-    IEnumerator WaitForSec()
-    {
-        yield return new WaitForSeconds(5);
-        Destroy(uiObject);
-        Destroy(gameObject);
-    }
-
+  
+  
 
 
 
