@@ -384,6 +384,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 250140977, guid: 8751aec11a977864a8d34b7028277976, type: 3}
+      propertyPath: mouseSensitivity
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 2443064899034281910, guid: 8751aec11a977864a8d34b7028277976,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1169,8 +1173,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b334bd0e4cb28341859ba1fbc130aa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theObject: {fileID: 168181765}
-  Text1: {fileID: 311983009}
 --- !u!1001 &993779075
 PrefabInstance:
   m_ObjectHideFlags: 0
