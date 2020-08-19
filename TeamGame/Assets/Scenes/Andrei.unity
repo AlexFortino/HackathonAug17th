@@ -1816,6 +1816,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: dd4ae9458a7d1694c8fa66432938e049, type: 2}
+    - target: {fileID: 6514396007715474257, guid: b6b08a174235a5b4d8512ee6eae3ada2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6514396007715474257, guid: b6b08a174235a5b4d8512ee6eae3ada2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6514396007715474259, guid: b6b08a174235a5b4d8512ee6eae3ada2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
