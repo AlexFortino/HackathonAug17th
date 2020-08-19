@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5537403138935105092}
   - component: {fileID: 5537403138935105099}
   - component: {fileID: 5537403138935105098}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeInnerWall (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 5537403139254994303}
   - component: {fileID: 5537403139254994302}
   - component: {fileID: 5537403139254994301}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeInnerWall (9)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 5537403139443844464}
   - component: {fileID: 5537403139443844471}
   - component: {fileID: 5537403139443844470}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeOuterWall (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 5537403139701026262}
   - component: {fileID: 5537403139701026261}
   - component: {fileID: 5537403139701026260}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeInnerWall (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -392,7 +392,7 @@ GameObject:
   - component: {fileID: 5537403139758788810}
   - component: {fileID: 5537403139758788809}
   - component: {fileID: 5537403139758788808}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeInnerWall (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -487,7 +487,7 @@ GameObject:
   - component: {fileID: 5537403139788324834}
   - component: {fileID: 5537403139788324833}
   - component: {fileID: 5537403139788324832}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeInnerWall (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -677,7 +677,7 @@ GameObject:
   - component: {fileID: 5537403140024430757}
   - component: {fileID: 5537403140024430756}
   - component: {fileID: 5537403140024430763}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeInnerWall (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -772,7 +772,7 @@ GameObject:
   - component: {fileID: 5537403140045136859}
   - component: {fileID: 5537403140045136858}
   - component: {fileID: 5537403140045136857}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeOuterWall (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -867,7 +867,7 @@ GameObject:
   - component: {fileID: 5537403140085858279}
   - component: {fileID: 5537403140085858278}
   - component: {fileID: 5537403140085858277}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeInnerWall (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -962,7 +962,7 @@ GameObject:
   - component: {fileID: 5537403140271441606}
   - component: {fileID: 5537403140271441605}
   - component: {fileID: 5537403140271441604}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeInnerWall (10)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1057,7 +1057,7 @@ GameObject:
   - component: {fileID: 5537403140499253050}
   - component: {fileID: 5537403140499253049}
   - component: {fileID: 5537403140499253048}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeInnerWall (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1152,7 +1152,7 @@ GameObject:
   - component: {fileID: 5537403140510760150}
   - component: {fileID: 5537403140510760149}
   - component: {fileID: 5537403140510760148}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeOuterWall (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1244,7 +1244,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5537403140580800644}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMaze
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1295,13 +1295,13 @@ GameObject:
   - component: {fileID: 5537403140591330058}
   - component: {fileID: 5537403140591330057}
   - component: {fileID: 5537403140591330056}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeCeiling
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5537403140591330063
 Transform:
   m_ObjectHideFlags: 0
@@ -1390,7 +1390,7 @@ GameObject:
   - component: {fileID: 5537403140593781460}
   - component: {fileID: 5537403140593781467}
   - component: {fileID: 5537403140593781466}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeOuterWall (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1485,7 +1485,7 @@ GameObject:
   - component: {fileID: 5537403140614193666}
   - component: {fileID: 5537403140614193665}
   - component: {fileID: 5537403140614193664}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeInnerWall (12)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1580,7 +1580,7 @@ GameObject:
   - component: {fileID: 5537403140803423487}
   - component: {fileID: 5537403140803423486}
   - component: {fileID: 5537403140803423485}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeInnerWall (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1675,7 +1675,7 @@ GameObject:
   - component: {fileID: 5537403140836986337}
   - component: {fileID: 5537403140836986336}
   - component: {fileID: 5537403140836986343}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TestingMazeInnerWall (11)
   m_TagString: Ground
   m_Icon: {fileID: 0}
