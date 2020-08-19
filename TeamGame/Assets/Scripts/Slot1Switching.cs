@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Slot1Switching : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject GlowStickItem;
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            Destroy(GlowStickItem);
+        }
     }
 }
