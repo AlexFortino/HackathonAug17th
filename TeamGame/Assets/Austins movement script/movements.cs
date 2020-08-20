@@ -7,14 +7,11 @@ public class movements : MonoBehaviour
 {
 
     public float movespeed;
-    public Rigidbody rb ;
-    float horizontal;
-    float vertical;
-    private bool facingright = true;
+    public Rigidbody2D rb ;
+    
     private bool facingup;
-    private float moveInput;
-    private float moveInputy;
 
+    Vector2 movement;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,70 +21,19 @@ public class movements : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       horizontal  =  Input.GetAxisRaw("Horizontal");
-       vertical = Input.GetAxisRaw("Vertical");
+      movement.x =  Input.GetAxisRaw("Horizontal");
+      movement.y= Input.GetAxisRaw("Vertical");
     }
     void FixedUpdate()
     {
 
-        moveInput = Input.GetAxis("Horizontal");
-        moveInputy = Input.GetAxis("Vertical");
 
-        rb.velocity = new Vector3 (horizontal * movespeed, vertical * movespeed);
-
-        if (facingright == false && moveInput < 0)
-        {
-            Flip();
-
-
-        }
-        else if (facingright == true && moveInput > 0)
-        {
-
-            Flip();
-
-        }
-        if (facingright == false && moveInputy < 0)
-        {
-            Flipy();
-
-
-        }
-        else if (facingright == true && moveInputy > 0)
-        {
-
-            Flipy();
-
-        }
-
+        rb.MovePosition(rb.position + movement * movespeed * Time.deltaTime);
 
 
 
     }
 
-    void Flip ( )
-    {
-        facingright = !facingright;
-        
-        Vector3 Scaler = transform.localScale;
-        Scaler.x *= -1;
-        
-
-        transform.localScale = Scaler;
-
-
-    }
-    void Flipy()
-    {
-        facingup = !facingup;
-
-        Vector3 Scaler = transform.localScale;
-        Scaler.x *= +1;
-
-
-        transform.localScale = Scaler;
-
-
-    }
+   
 
 }

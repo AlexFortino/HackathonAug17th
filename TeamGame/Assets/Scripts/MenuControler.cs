@@ -47,6 +47,7 @@ public class MenuControler : MonoBehaviour
 
     public void ReturnToMain()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("Map_Hosp1");
+
     }
 }
