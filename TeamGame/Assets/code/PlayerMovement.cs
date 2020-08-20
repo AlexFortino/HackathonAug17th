@@ -2,6 +2,7 @@
 
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour {
 
@@ -26,6 +27,8 @@ public class PlayerMovement : MonoBehaviour {
     public float counterMovement = 0.175f;
     private float threshold = 0.01f;
     public float maxSlopeAngle = 35f;
+    public int playerHP = 3;
+
 
     //Crouch & Slide
     private Vector3 crouchScale = new Vector3(1, 0.5f, 1);
@@ -64,6 +67,14 @@ public class PlayerMovement : MonoBehaviour {
     private void Update() {
         MyInput();
         Look();
+
+        if (playerHP <= 0)
+        {
+
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+        }
+
     }
 
     /// <summary>
