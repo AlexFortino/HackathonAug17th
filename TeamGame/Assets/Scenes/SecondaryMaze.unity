@@ -2247,6 +2247,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PLAYER MASTER FPS
       objectReference: {fileID: 0}
+    - target: {fileID: 5729592709209105537, guid: a579788c3b796ad49855639f83fcd620,
+        type: 3}
+      propertyPath: m_Range
+      value: 60
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a579788c3b796ad49855639f83fcd620, type: 3}
 --- !u!1001 &541506333
