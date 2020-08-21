@@ -175,7 +175,7 @@ PrefabInstance:
     - target: {fileID: 7858934579527449593, guid: ce60764698e0f334a84cdf92905186c6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7858934579527449593, guid: ce60764698e0f334a84cdf92905186c6,
         type: 3}
@@ -574,6 +574,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc536a23f3bf32b47b1051e73843f06b, type: 3}
+--- !u!1 &118253230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5379770612385902890, guid: a579788c3b796ad49855639f83fcd620,
+    type: 3}
+  m_PrefabInstance: {fileID: 711574487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &118253231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118253230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6561589ab87f9f4c887f3acf10e3767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlowStickItem: {fileID: 0}
 --- !u!4 &130055176 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3408925598134642161, guid: bc536a23f3bf32b47b1051e73843f06b,
@@ -1350,7 +1369,7 @@ PrefabInstance:
     - target: {fileID: 5470839434059285653, guid: 16e3d0205d298bd40af4ac3433c196b1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5470839434059285653, guid: 16e3d0205d298bd40af4ac3433c196b1,
         type: 3}
@@ -3034,7 +3053,7 @@ PrefabInstance:
     - target: {fileID: 4537147915073065572, guid: e06d36140b3b52147b22c385d5ea8227,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4537147915073065572, guid: e06d36140b3b52147b22c385d5ea8227,
         type: 3}
@@ -3071,6 +3090,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1021514724, guid: a579788c3b796ad49855639f83fcd620, type: 3}
+      propertyPath: m_Intensity
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5379770612385902868, guid: a579788c3b796ad49855639f83fcd620,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4534,7 +4557,7 @@ PrefabInstance:
     - target: {fileID: 5470839434059285653, guid: 16e3d0205d298bd40af4ac3433c196b1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5470839434059285653, guid: 16e3d0205d298bd40af4ac3433c196b1,
         type: 3}
