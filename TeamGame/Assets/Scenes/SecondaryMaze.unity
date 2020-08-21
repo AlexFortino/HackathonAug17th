@@ -175,7 +175,7 @@ PrefabInstance:
     - target: {fileID: 7858934579527449593, guid: ce60764698e0f334a84cdf92905186c6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7858934579527449593, guid: ce60764698e0f334a84cdf92905186c6,
         type: 3}
@@ -1320,7 +1320,7 @@ PrefabInstance:
     - target: {fileID: 5470839434059285653, guid: 16e3d0205d298bd40af4ac3433c196b1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2500002
+      value: 6.31
       objectReference: {fileID: 0}
     - target: {fileID: 5470839434059285653, guid: 16e3d0205d298bd40af4ac3433c196b1,
         type: 3}
@@ -1350,7 +1350,7 @@ PrefabInstance:
     - target: {fileID: 5470839434059285653, guid: 16e3d0205d298bd40af4ac3433c196b1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5470839434059285653, guid: 16e3d0205d298bd40af4ac3433c196b1,
         type: 3}
@@ -3108,7 +3108,7 @@ PrefabInstance:
     - target: {fileID: 4537147915073065572, guid: e06d36140b3b52147b22c385d5ea8227,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4537147915073065572, guid: e06d36140b3b52147b22c385d5ea8227,
         type: 3}
@@ -4509,7 +4509,7 @@ PrefabInstance:
     - target: {fileID: 5470839434059285653, guid: 16e3d0205d298bd40af4ac3433c196b1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.472
+      value: 5.72
       objectReference: {fileID: 0}
     - target: {fileID: 5470839434059285653, guid: 16e3d0205d298bd40af4ac3433c196b1,
         type: 3}
@@ -4539,7 +4539,7 @@ PrefabInstance:
     - target: {fileID: 5470839434059285653, guid: 16e3d0205d298bd40af4ac3433c196b1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5470839434059285653, guid: 16e3d0205d298bd40af4ac3433c196b1,
         type: 3}
