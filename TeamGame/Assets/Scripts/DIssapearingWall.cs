@@ -17,7 +17,7 @@ public class DIssapearingWall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(1) && (theObject == null))
+        if (Input.GetKeyDown(KeyCode.F) && (theObject == null))
         {
             Destroy(gameObject);
             
