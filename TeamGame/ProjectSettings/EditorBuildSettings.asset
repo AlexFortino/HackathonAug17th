@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial Scene.unity
     guid: a6749610de00b0244b3aae854a19de66
   - enabled: 1
-    path: Assets/Scenes/SecondaryMaze.unity
-    guid: 3ca587f1e5f79134b8d0cb9345fead62
-  - enabled: 1
     path: Assets/Scenes/Andrei.unity
     guid: 837b55635bc0e4c45b697fc42147d0e1
+  - enabled: 1
+    path: Assets/Scenes/SecondaryMaze.unity
+    guid: 3ca587f1e5f79134b8d0cb9345fead62
   m_configObjects: {}
